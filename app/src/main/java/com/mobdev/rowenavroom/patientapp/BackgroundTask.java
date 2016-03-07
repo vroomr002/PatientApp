@@ -55,7 +55,7 @@ public class BackgroundTask extends AsyncTask<String,Patient,String> {
 
             patientAdapter = new PatientAdapter(ctx, R.layout.display_patient_row);
 
-            CR.moveToFirst();
+//            CR.moveToFirst();
             while(CR.moveToNext()){
                 pat_num = CR.getString(0).toString();
                 Log.d("patientnumbervalue", CR.getString(0).toString());
