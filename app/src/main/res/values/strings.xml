@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PatientApp</string>
+    <string name="button_next">Next</string>
+    <string name="persNum">Vul a.u.b. uw personeelsnummer in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

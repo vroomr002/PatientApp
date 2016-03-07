@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    tools:context=".DisplayPatient">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/t_pat_id"
+        android:layout_alignParentLeft="true"
+        android:text="34454"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall"
+        />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="80dp"
+        android:id="@+id/tx_fname"
+        android:layout_toRightOf="@+id/t_pat_id"
+        android:text="Kevin"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall"
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="80dp"
+        android:id="@+id/tx_lname"
+        android:layout_toRightOf="@+id/tx_fname"
+        android:text="Vroom"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall"
+        />
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/delete"
+        android:src="@drawable/ic_edit"
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="@string/app_name"/>
+    <!--<TextView-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:id="@+id/tx_current_condition"-->
+        <!--android:layout_toRightOf="@+id/tx_lname"-->
+        <!--android:text="Condition"-->
+        <!--android:gravity="center"-->
+        <!--android:textAppearance="?android:textAppearanceSmall"-->
+        <!--/>-->
+
+</RelativeLayout>
